@@ -1,8 +1,8 @@
 from typing import Any, Dict
 
 from pyquery import PyQuery
-
 from rsserpent.utils import HTTPClient
+
 
 path = "/qidian/booklist/detail/{id}"
 

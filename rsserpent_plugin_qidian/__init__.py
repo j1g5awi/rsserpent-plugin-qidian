@@ -12,5 +12,8 @@ plugin = Plugin(
     ),
     prefix="/qidian",
     repository="https://github.com/Jigsaw/rsserpent-plugin-qidian",
-    routers={booklist.detail.path:booklist.detail.provider},
+    routers={
+        booklist.detail.path: booklist.detail.provider,
+        booklist.latest.path: booklist.latest.provider,
+    },
 )

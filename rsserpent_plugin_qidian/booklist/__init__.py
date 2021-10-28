@@ -1,1 +1,1 @@
-from . import detail
+from . import detail, latest
